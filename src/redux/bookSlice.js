@@ -4,7 +4,7 @@ import axios from 'axios';
 const getAllBooks = async ()=>{
 const response = await axios.get('https://ravirajnavale-mock-server-app.onrender.com/books')
 const Books = response.data
-// console.log(Books) 
+console.log(Books) 
 }
 getAllBooks()
 

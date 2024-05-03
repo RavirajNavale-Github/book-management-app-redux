@@ -1,5 +1,9 @@
 import React from 'react';
-import { CircularProgress, Typography, Box } from '@mui/material';
+import { 
+  // CircularProgress, 
+  Typography, 
+  Box 
+} from '@mui/material';
 
 const Loader = () => {
   return (
